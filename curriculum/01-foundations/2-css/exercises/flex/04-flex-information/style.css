@@ -21,8 +21,8 @@ section {
 }
 
 .item {
-    width: 200px;
-    display: block;
+    max-width: 200px;
+    /* display: block; */
 }
 
 /* do not edit this footer */
