@@ -1,0 +1,3 @@
+[submodule "projects/02-landing-page/odin-landing-page"]
+	path = projects/02-landing-page/odin-landing-page
+	url = https://github.com/AnazThaj/odin-landing-page.git
