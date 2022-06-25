@@ -1,4 +1,4 @@
-/* this is some magical font-importing.  
+/* this is some magical font-importing.
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
@@ -15,9 +15,27 @@ body {
     /*
     *Changes
     */
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/*
+*Changes
+*/
+.header .left-nav {
     display: flex;
     justify-content: space-between;
 }
+
+.header .right-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* *---------------- */
 
 .profile-image {
     background: rebeccapurple;
@@ -40,6 +58,7 @@ button {
     background: rebeccapurple;
     color: white;
     padding: 8px 24px;
+    height: 20%;
 }
 
 a {
@@ -55,4 +74,11 @@ ul {
     */
     padding: 0;
     display: flex;
+}
+
+.left-nav,
+.right-nav,
+.left-nav ul {
+    gap: 20px;
+    align-items: center;
 }
