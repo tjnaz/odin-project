@@ -1,3 +1,6 @@
 [submodule "projects/02-landing-page/odin-landing-page"]
 	path = projects/02-landing-page/odin-landing-page
 	url = https://github.com/AnazThaj/odin-landing-page.git
+[submodule "projects/03-rock-paper-scissors/odin-rock-paper-scissors"]
+	path = projects/03-rock-paper-scissors/odin-rock-paper-scissors
+	url = https://github.com/AnazThaj/odin-rock-paper-scissors.git
