@@ -4,3 +4,6 @@
 [submodule "projects/03-rock-paper-scissors/odin-rock-paper-scissors"]
 	path = projects/03-rock-paper-scissors/odin-rock-paper-scissors
 	url = https://github.com/AnazThaj/odin-rock-paper-scissors.git
+[submodule "curriculum/01-foundations/3-js/javascript-exercises"]
+	path = curriculum/01-foundations/3-js/javascript-exercises
+	url = https://github.com/AnazThaj/javascript-exercises.git
