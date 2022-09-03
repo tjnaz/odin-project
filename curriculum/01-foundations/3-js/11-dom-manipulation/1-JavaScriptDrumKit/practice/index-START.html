@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS Drum Kit</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="main.js" defer></script>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+</head>
+
+<body>
+    <div class="keys">
+        <div key="a" class="key">
+            <kbd>A</kbd>
+            <span class="sound">clap</span>
+        </div>
+        <div key="s" class="key">
+            <kbd>S</kbd>
+            <span class="sound">hihat</span>
+        </div>
+        <div key="d" class="key">
+            <kbd>D</kbd>
+            <span class="sound">kick</span>
+        </div>
+        <div key="f" class="key">
+            <kbd>F</kbd>
+            <span class="sound">openhat</span>
+        </div>
+        <div key="g" class="key">
+            <kbd>G</kbd>
+            <span class="sound">boom</span>
+        </div>
+        <div key="h" class="key">
+            <kbd>H</kbd>
+            <span class="sound">ride</span>
+        </div>
+        <div key="j" class="key">
+            <kbd>J</kbd>
+            <span class="sound">snare</span>
+        </div>
+        <div key="k" class="key">
+            <kbd>K</kbd>
+            <span class="sound">tom</span>
+        </div>
+        <div key="l" class="key">
+            <kbd>L</kbd>
+            <span class="sound">tink</span>
+        </div>
+    </div>
+    <audio key="a" src="../sounds/clap.wav"></audio>
+    <audio key="s" src="../sounds/hihat.wav"></audio>
+    <audio key="d" src="../sounds/kick.wav"></audio>
+    <audio key="f" src="../sounds/openhat.wav"></audio>
+    <audio key="g" src="../sounds/boom.wav"></audio>
+    <audio key="h" src="../sounds/ride.wav"></audio>
+    <audio key="j" src="../sounds/snare.wav"></audio>
+    <audio key="k" src="../sounds/tom.wav"></audio>
+    <audio key="l" src="../sounds/tink.wav"></audio>
+    <!-- <script>
+        window.addEventListener('keydown', function (e) {
+            const audio = this.document.querySelector(`audio[key="e.keyCode}"]`)
+            if (!audio) return // stop the function from running altogether
+            audio.currentTime = 0
+            audio.play()
+            // console.log(audio)
+        })
+    </script> -->
+</body>
+
+</html>
