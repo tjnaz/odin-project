@@ -7,3 +7,12 @@
 [submodule "curriculum/01-foundations/3-js/javascript-exercises"]
 	path = curriculum/01-foundations/3-js/javascript-exercises
 	url = https://github.com/AnazThaj/javascript-exercises.git
+[submodule "top-projects/01-odin-recipes"]
+	path = top-projects/01-odin-recipes
+	url = https://github.com/AnazThaj/odin-recipes.git
+[submodule "top-projects/02-landing-page"]
+	path = top-projects/02-landing-page
+	url = https://github.com/AnazThaj/odin-landing-page.git
+[submodule "top-projects/03-rps"]
+	path = top-projects/03-rps
+	url = https://github.com/AnazThaj/odin-rock-paper-scissors.git
